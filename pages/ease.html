@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ Ease ]: UX Prototype</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="../index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background-layer"></div>
+
+    <nav class="site-nav">
+        <a href="../index.html">Home</a>
+        <a href="ease.html" class="active">Ease</a>
+        <a href="bounce.html">Bounce</a>
+        <a href="hover.html">Hover</a>
+    </nav>
+        
+    <header>
+        <h1 class="animated-title">Ease</h1>
+        <p class="subtext">The different easing styles</p>
+    </header>
+
+    <main class="motion-stack">
+        <section class="motion-block">
+            <h2>Linear</h2>
+            <div id="canvas-linear"></div>
+        </section>
+      
+        <section class="motion-block">
+            <h2>Ease In</h2>
+            <div id="canvas-easeIn"></div>
+        </section>
+      
+        <section class="motion-block">
+            <h2>Ease Out</h2>
+            <div id="canvas-easeOut"></div>
+        </section>
+      
+        <section class="motion-block">
+            <h2>Ease In Out</h2>
+            <div id="canvas-easeInOut"></div>
+        </section>
+    </main>
+
+</body>
+    
+<script src="../libs/p5.min.js"></script>
+<script src="../js/easing.js"></script>
+</html>

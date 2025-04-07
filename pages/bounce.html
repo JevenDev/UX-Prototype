@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ Bounce ]: UX Prototype</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="../index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background-layer"></div>
+
+    <nav class="site-nav">
+        <a href="../index.html">Home</a>
+        <a href="ease.html">Ease</a>
+        <a href="bounce.html" class="active">Bounce</a>
+        <a href="hover.html">Hover</a>
+    </nav>
+
+    <header>
+        <h1 class="animated-title">Bounce</h1>
+        <p class="subtext">Experimenting with gravity and bounce!</p>
+    </header>
+
+    <main class="motion-stack">
+        <section class="motion-block">
+          <h2>Regular Bounce :D</h2>
+          <div id="canvas-regular"></div>
+        </section>
+      
+        <section class="motion-block">
+          <h2>High Energy</h2>
+          <div id="canvas-high"></div>
+        </section>
+      
+        <section class="motion-block">
+          <h2>Soft Bounce</h2>
+          <div id="canvas-soft"></div>
+        </section>
+    </main>
+
+<script src="../libs/p5.min.js"></script>
+<script src="../js/bounce.js"></script>
+</body>
+</html>
